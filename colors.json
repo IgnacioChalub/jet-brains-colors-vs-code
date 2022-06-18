@@ -28,7 +28,7 @@
               }
             },
             {
-                "name": "storage modifier",
+                "name": "#CC8E2F",
                 "scope": [
                     "storage.modifier",
                     "keyword.control",
