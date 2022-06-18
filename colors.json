@@ -28,7 +28,7 @@
               }
             },
             {
-                "name": "#CC8E2F",
+                "name": "storage modifier",
                 "scope": [
                     "storage.modifier",
                     "keyword.control",
@@ -45,7 +45,10 @@
             },
             {
                 "name": "#A782BB",
-                "scope": "variable.other.property.ts",
+                "scope": [
+                    "variable.other.property.ts",
+                    "support.variable.property",
+                ],
                 "settings": {
                   "foreground": "#A782BB"
                 }
@@ -60,6 +63,7 @@
                     "variable.other.constant",
                     "variable",
                     "storage.type",
+                    "entity.name.type",
                 ],
                 "settings": {
                   "foreground": "#CFD2D5"
