@@ -1,83 +1,84 @@
 "editor.bracketPairColorization.enabled": true,
-"workbench.colorCustomizations": {
-    "editorBracketHighlight.foreground1": "#CFD2D5",
-    "editorBracketHighlight.foreground2": "#CFD2D5",
-    "editorBracketHighlight.foreground3": "#CFD2D5",
-    "editorBracketHighlight.foreground4": "#CFD2D5",
-    "editorBracketHighlight.foreground5": "#CFD2D5",
-    "editorBracketHighlight.foreground6": "#CFD2D5",
-    "editorBracketHighlight.unexpectedBracket.foreground": "#CFD2D5",
-},
-"editor.tokenColorCustomizations": {
-    "textMateRules": [
-        {
-          "name": "#FFC66D",
-          "scope": [
-            "entity.name.function",
-            "support.class"
-            ],
-          "settings": {
-            "foreground": "#FFC66D"
-          }
-        },
-        {
-          "name": "#8EA765",
-          "scope": "string",
-          "settings": {
-            "foreground": "#8EA765"
-          }
-        },
-        {
-            "name": "storage modifier",
-            "scope": [
-                "storage.modifier",
-                "keyword.control",
-                "variable.language",
-                "support.type.primitive.ts",
-                "storage.type.class.ts",
-                "storage.type.ts",
-                "keyword.operator.expression",
-                "constant.language"
-            ],
-            "settings": {
-              "foreground": "#CC8E2F"
-            }
-        },
-        {
-            "name": "#A782BB",
-            "scope": [
-                "variable.other.property.ts",
-                "support.variable.property",
-                "support.variable.ts",
-            ],
-            "settings": {
-              "foreground": "#A782BB"
-            }
-        },
-        {
-            "name": "#CFD2D5",
-            "scope": [
-                "entity.name.type.class",
-                "entity.name.type.interface",
-                "variable.parameter",
-                "meta.return.type.ts",
-                "variable.other.constant",
-                "variable",
-                "storage.type",
-                "entity.name.type",
-            ],
-            "settings": {
-              "foreground": "#CFD2D5"
-            }
-        },
-        {
-            "name": "#6896AD",
-            "scope": [
-                "constant.numeric"
-            ],
-            "settings": {
-              "foreground": "#6896AD"
-            }
-        },
-      ]
-    }
+    "workbench.colorCustomizations": {
+        "editorBracketHighlight.foreground1": "#CFD2D5",
+        "editorBracketHighlight.foreground2": "#CFD2D5",
+        "editorBracketHighlight.foreground3": "#CFD2D5",
+        "editorBracketHighlight.foreground4": "#CFD2D5",
+        "editorBracketHighlight.foreground5": "#CFD2D5",
+        "editorBracketHighlight.foreground6": "#CFD2D5",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#CFD2D5",
+    },
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+              "name": "#FFC66D",
+              "scope": [
+                "entity.name.function",
+                "support.class"
+                ],
+              "settings": {
+                "foreground": "#FFC66D"
+              }
+            },
+            {
+              "name": "#8EA765",
+              "scope": "string",
+              "settings": {
+                "foreground": "#8EA765"
+              }
+            },
+            {
+                "name": "storage modifier",
+                "scope": [
+                    "storage.modifier",
+                    "keyword.control",
+                    "variable.language",
+                    "support.type.primitive.ts",
+                    "storage.type.class.ts",
+                    "storage.type.ts",
+                    "keyword.operator.expression",
+                    "constant.language",
+                    "keyword.operator.new.ts",
+                ],
+                "settings": {
+                  "foreground": "#CC8E2F"
+                }
+            },
+            {
+                "name": "#A782BB",
+                "scope": [
+                    "variable.other.property.ts",
+                    "support.variable.property",
+                    "support.variable.ts",
+                ],
+                "settings": {
+                  "foreground": "#A782BB"
+                }
+            },
+            {
+                "name": "#CFD2D5",
+                "scope": [
+                    "entity.name.type.class",
+                    "entity.name.type.interface",
+                    "variable.parameter",
+                    "meta.return.type.ts",
+                    "variable.other.constant",
+                    "variable",
+                    "storage.type",
+                    "entity.name.type",
+                ],
+                "settings": {
+                  "foreground": "#CFD2D5"
+                }
+            },
+            {
+                "name": "#6896AD",
+                "scope": [
+                    "constant.numeric"
+                ],
+                "settings": {
+                  "foreground": "#6896AD"
+                }
+            },
+          ]
+        }
