@@ -1,4 +1,4 @@
- "editor.bracketPairColorization.enabled": true,
+"editor.bracketPairColorization.enabled": true,
     "workbench.colorCustomizations": {
         "editorBracketHighlight.foreground1": "#CFD2D5",
         "editorBracketHighlight.foreground2": "#CFD2D5",
@@ -11,7 +11,7 @@
     "editor.tokenColorCustomizations": {
         "textMateRules": [
             {
-              "name": "entity function name",
+              "name": "#FFC66D",
               "scope": [
                 "entity.name.function",
                 "support.class"
@@ -21,7 +21,7 @@
               }
             },
             {
-              "name": "string",
+              "name": "#8EA765",
               "scope": "string",
               "settings": {
                 "foreground": "#8EA765"
@@ -36,32 +36,42 @@
                     "support.type.primitive.ts",
                     "storage.type.class.ts",
                     "storage.type.ts",
-                    "keyword.operator.expression"
+                    "keyword.operator.expression",
+                    "constant.language"
                 ],
                 "settings": {
                   "foreground": "#CC8E2F"
                 }
             },
             {
-                "name": "variable other property ts",
+                "name": "#A782BB",
                 "scope": "variable.other.property.ts",
                 "settings": {
                   "foreground": "#A782BB"
                 }
             },
             {
-                "name": "entity name type class",
+                "name": "#CFD2D5",
                 "scope": [
                     "entity.name.type.class",
                     "entity.name.type.interface",
                     "variable.parameter",
                     "meta.return.type.ts",
-                    "constant.numeric",
                     "variable.other.constant",
                     "variable",
+                    "storage.type",
                 ],
                 "settings": {
                   "foreground": "#CFD2D5"
+                }
+            },
+            {
+                "name": "#6896AD",
+                "scope": [
+                    "constant.numeric"
+                ],
+                "settings": {
+                  "foreground": "#6896AD"
                 }
             },
           ]
